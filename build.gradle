@@ -21,6 +21,7 @@ dependencies {
 
     testImplementation platform('com.fasterxml.jackson:jackson-bom:2.22.0')
     testImplementation 'com.fasterxml.jackson.core:jackson-databind'
+    testImplementation 'com.fasterxml.jackson.datatype:jackson-datatype-jdk8'
 }
 
 test {
